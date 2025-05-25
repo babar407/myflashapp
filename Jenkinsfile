@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/babar407/myflashapp.git'
+                 git branch: 'main', url: 'https://github.com/babar407/myflashapp.git'
             }
         }
 
